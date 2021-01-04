@@ -1,3 +1,4 @@
+#此python文件暂时只能用于晚打卡
 from helium import *
 
 start_chrome("https://ehall.jlu.edu.cn/jlu_portal")#界面可见
