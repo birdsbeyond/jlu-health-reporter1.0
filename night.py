@@ -9,6 +9,8 @@ click(S('#login-submit'))#根据id寻找按钮
 go_to("https://ehall.jlu.edu.cn/jlu_portal/guide?id=2EFFFFFF-F8FA-4BFA-8FFD-856BF98F8FF1")
 #上面需要复制自己在正常页面下登录后的网址(此处已做混淆处理)
 click(Button("在线办理"))#根据名称寻找按钮
+click("校外")
+click("正常")
 cell = S(".command_button_content")
 highlight(cell)
 click(cell)#以上三行根据class寻找按钮
